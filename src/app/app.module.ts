@@ -46,7 +46,8 @@ import { MatListModule } from '@angular/material/list';
     LayoutModule,
     MatToolbarModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    MatButtonModule,
   ],
   providers: [],
   bootstrap: [
@@ -54,7 +55,8 @@ import { MatListModule } from '@angular/material/list';
     TableComponent,
     FormComponent,
     MessageComponent,
-    AppDashboradComponent
+    AppDashboradComponent,
+    AppNavigationComponent
   ]
 })
 export class AppModule { }
