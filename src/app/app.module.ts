@@ -45,7 +45,8 @@ import { LayoutModule } from '@angular/cdk/layout';
     AppComponent,
     TableComponent,
     FormComponent,
-    MessageComponent
+    MessageComponent,
+    AppDashboradComponent
   ]
 })
 export class AppModule { }
