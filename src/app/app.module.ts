@@ -9,6 +9,7 @@ import { TableComponent } from './core/table/table.component';
 import { FormComponent } from './core/form/form.component';
 import { MessageModule } from './messages/message.module';
 import { MessageComponent } from './messages/message.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { MessageComponent } from './messages/message.component';
     BrowserModule,
     ModelModule,
     CoreModule,
-    MessageModule
+    MessageModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [
