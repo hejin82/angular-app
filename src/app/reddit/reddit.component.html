@@ -16,4 +16,4 @@
     </div>
   </div>
 </div>
-<app-reddit-article></app-reddit-article>
+<app-reddit-article *ngFor="let article of articles" [article]="article"></app-reddit-article>

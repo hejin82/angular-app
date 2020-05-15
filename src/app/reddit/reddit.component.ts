@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Article} from "../reddit-article/article.model";
 
 @Component({
   selector: 'app-reddit',
@@ -7,7 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RedditComponent implements OnInit {
 
-  constructor() { }
+  articles: Article[];
+
+  constructor() {
+    this.articles = [
+      new Article('angular', 'http://angular.io', 10),
+      new Article('react', 'http://react.io', 10),
+      new Article('vue', 'http://vue.io', 10),
+    ]
+  }
 
   ngOnInit(): void {
   }
