@@ -7,9 +7,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductCounterComponent implements OnInit {
 
-  constructor() { }
+  value: number;
+
+  constructor() {
+    this.value = 1;
+  }
 
   ngOnInit(): void {
+  }
+
+  increase() {
+    this.value = this.value + 1;
+    return false;
+  }
+
+  decrease() {
+    this.value = this.value = 1;
+    return false;
   }
 
 }
