@@ -8,6 +8,7 @@ import { UserListComponent } from './user-list/user-list.component';
 import { RedditComponent } from './reddit/reddit.component';
 import { RedditArticleComponent } from './reddit-article/reddit-article.component';
 import { ProductComponent } from './product/product/product.component';
+import { AppProductComponent } from './product/app-product/app-product.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ProductComponent } from './product/product/product.component';
     UserListComponent,
     RedditComponent,
     RedditArticleComponent,
-    ProductComponent
+    ProductComponent,
+    AppProductComponent
   ],
   imports: [
     BrowserModule
