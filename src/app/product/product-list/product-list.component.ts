@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { Product } from '../model/product.model';
 
 @Component({
   selector: 'app-product-list',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./product-list.component.scss']
 })
 export class ProductListComponent implements OnInit {
+
+  @Input() productList: Product[];
+  @Output() productSelected: EventEmitter<Product>;
 
   constructor() { }
 

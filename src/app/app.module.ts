@@ -9,7 +9,7 @@ import { RedditComponent } from './reddit/reddit.component';
 import { RedditArticleComponent } from './reddit-article/reddit-article.component';
 import { ProductComponent } from './product/product/product.component';
 import { AppProductComponent } from './product/app-product/app-product.component';
-import { ProductListComponent } from './product-list/product-list.component';
+import { ProductListComponent } from './product/product-list/product-list.component';
 
 @NgModule({
   declarations: [

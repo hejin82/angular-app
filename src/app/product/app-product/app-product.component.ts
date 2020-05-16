@@ -8,7 +8,6 @@ import { Product } from '../model/product.model';
 })
 export class AppProductComponent implements OnInit {
 
-  product: Product;
   products: Product[];
 
   constructor() {
@@ -28,20 +27,13 @@ export class AppProductComponent implements OnInit {
         29.99
       ),
     ];
-    this.product = new Product(
-      'nicehat',
-      'a nice black hat',
-      '',
-      ['men', 'accessories', 'hats'],
-      29.99
-    );
   }
 
   ngOnInit(): void {
   }
 
   productWasSelected(product: Product): void {
-    console.log(`prodcut clicked:${product}`)
+    console.log(`prodcut clicked:${product}`);
   }
 
 }
