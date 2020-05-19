@@ -12,6 +12,7 @@ import { AppProductComponent } from './product/app-product/app-product.component
 import { ProductListComponent } from './product/product-list/product-list.component';
 import { ProductCounterComponent } from './product/product-counter/product-counter.component';
 import { OutputEventComponent } from './event/output-event/output-event.component';
+import { EventContainerComponent } from './event/event-container/event-container.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { OutputEventComponent } from './event/output-event/output-event.componen
     AppProductComponent,
     ProductListComponent,
     ProductCounterComponent,
-    OutputEventComponent
+    OutputEventComponent,
+    EventContainerComponent
   ],
   imports: [
     BrowserModule
