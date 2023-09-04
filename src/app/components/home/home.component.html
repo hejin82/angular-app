@@ -1,1 +1,6 @@
-<p>home works!</p>
+<ul>
+  <li *ngFor="let user of users">
+    <img [src]="user.avatar">
+    <p>{{user.first_name}} {{user.last_name}}</p>
+  </li>
+</ul>
