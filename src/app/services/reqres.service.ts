@@ -16,8 +16,8 @@ export class ReqresService {
     return this.http.get<User[]>(this.url);
   }
 
-  getUser(id: number): Observable<User[]> {
+  getUser(id: number): Observable<User> {
     const url = `${this.url}/${id}`
-    return this.http.get<User[]>(url);
+    return this.http.get<User>(url);
   }
 }
